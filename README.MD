@@ -25,10 +25,10 @@ void loop()
 
 - Connection
 
-nano gnd -> esp8266 gnd + esp8266 rst + esp8266 gpio0
-nano 3.3 -> esp8266 3.3v
-nano rx -> esp8266 rx
-nano tx -> esp8266 tx
+- nano gnd -> esp8266 gnd + esp8266 rst + esp8266 gpio0
+- nano 3.3 -> esp8266 3.3v
+- nano rx -> esp8266 rx
+- nano tx -> esp8266 tx
 
 ### FIRMWARE UPDATE PROCEDURE
 
@@ -37,4 +37,3 @@ nano tx -> esp8266 tx
 - Select 8M as flash size (may be different on yours, uncheck all to display the info from the board)
 - click start and wait for 3 seconds, then unplug the RST from GND.
 - wait to finish :)
-
