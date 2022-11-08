@@ -1,0 +1,9 @@
+flash vendor:
+85h : N/A
+flash devID:
+6014h
+N/A;8Mbit
+crystal:
+26 Mhz
+
+AP:  2E-3A-E8-4A-C2-28  STA:  2C-3A-E8-4A-C2-28
